@@ -27,7 +27,10 @@
         "build-nolog": "vite build --config vite/config.prod.mjs"
     },
     "dependencies": {
+        "@dimforge/rapier2d-compat": "^0.14.0",
+        "@tonejs/midi": "^2.0.28",
         "phaser": "^3.86.0",
+        "tone": "^15.0.4",
         "vue": "^3.4.27"
     },
     "devDependencies": {
